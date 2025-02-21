@@ -1,0 +1,34 @@
+.task-table {
+    width: 100%;
+}
+.task-table th, .task-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.task-table th {
+    background-color: #f2f2f2;
+}
+.urgent {
+    color: red;
+}
+.soon {
+    color: orange;
+}
+.urgent i {
+    color: red;
+    font-size: 1.2em;
+}
+.notification-badge {
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.check-status {
+    font-size: 0.7em;
+    color: gray;
+}
